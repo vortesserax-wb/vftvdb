@@ -92,18 +92,18 @@ A list of awards that this person has won or been nominated for. This includes t
 
 #### Example
 
-{
- "awards": &#91;
- {
- "year": 1958,
- "awardName": "Golden Globe",
- "category": "Best Actor - Drama",
- "winner": false,
- "event": "Golden Globes, USA"
- },
- ...
- &#93;
-}
+> {
+>  "awards": &#91;
+>  {
+>   "year": 1958,
+>   "awardName": "Golden Globe",
+>   "category": "Best Actor - Drama",
+>   "winner": false,
+>   "event": "Golden Globes, USA"
+>  },
+>  ...
+>  &#93;
+> }
 
 ### filmography
 

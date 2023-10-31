@@ -92,6 +92,7 @@ A list of awards that this person has won or been nominated for. This includes t
 
 #### Example
 
+```
 > {
 >  "awards": &#91;
 >  {
@@ -104,6 +105,7 @@ A list of awards that this person has won or been nominated for. This includes t
 >  ...
 >  &#93;
 > }
+```
 
 ### filmography
 

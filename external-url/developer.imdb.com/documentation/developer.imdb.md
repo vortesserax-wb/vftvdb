@@ -94,7 +94,7 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ```
 {
- "awards": &#91;
+ "awards": [
  {
   "year": 1958,
   "awardName": "Golden Globe",
@@ -103,7 +103,7 @@ A list of awards that this person has won or been nominated for. This includes t
   "event": "Golden Globes, USA"
  },
  ...
- &#93;
+ ]
 }
 ```
 

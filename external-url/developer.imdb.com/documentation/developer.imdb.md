@@ -76,6 +76,7 @@ IMDb’s data is constantly being expanded and updated, and it can take seconds 
 
 IMDb’s data contains URLs that you can use to link back to the IMDb website in any experience you build for your users. Your license may require you to attach a “refmarker” to the end of the URL. The “refmarker” is a special sequence of characters that we use to identify the source of our traffic. Add the “refmarker” to the URL by appending ?ref_=xx_xxx_x to the URL, where xx_xxx_x is replaced by the code we have provided to you. A full URL could look something like https://www.imdb.com/title/tt0050083/?ref_=my_ref_marker.
 
+
 ## Data Dictionary - Name Essential
 
 ### nameId
@@ -111,3 +112,110 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ### knownFor
 
+
+## Data Dictionary - Title Essential
+
+### titleId
+
+### remappedTo
+
+### originalTitle
+
+### akas
+
+### awards
+
+### creditsByCategory
+
+### principalCastMembers
+
+### principalCrewMembers
+
+### certificates
+
+### companies
+
+### countries
+
+### episodeInfo
+
+### seriesInfo
+
+### episodeTitleIds
+
+### officialSiteLinks
+
+### genres
+
+### image
+
+### imdbUrl
+
+### isAdult
+
+### keywords
+
+### languages
+
+### locations
+
+### movieConnections
+
+### plot
+
+### plotShort
+
+### plotMedium
+
+### plotLong
+
+### releaseDates
+
+### productionStatus
+
+### runtimeMinutes
+
+### taglines
+
+### titleType
+
+### imdbRating
+
+### year
+
+
+## Data Dictionary - Box Office
+
+### boxoffice_title_budgets_v1
+
+### boxoffice_title_grosses_v1
+
+### boxoffice_title_opening_weekends_v1
+
+### boxoffice_title_grosses_timeseries_v1
+
+
+## Querying Data in Amazon Athena Tables
+
+### What is Amazon Athena?
+
+### Getting Started
+
+### What Are the Highest-Rated Movies On IMDb?
+
+### What Are the Title Texts for the Titles That a Person Is Known For?
+
+### What Are the Names of the Principal Cast for a Title?
+
+### What Awards was a Title Nominated for, and who were the Award Nominees?
+
+### What Are the Title Texts for Episodes of a Series?
+
+### What Is the Title Text of the Series for an Episode Title?
+
+
+## Appendix 1: Box Office Mojo Areas
+
+### Area Rollups and Special Areas
+
+### Individual Areas

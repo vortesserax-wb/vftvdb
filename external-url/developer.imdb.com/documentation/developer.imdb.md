@@ -1,4 +1,5 @@
-# Documentation & Data Dictionary: IMDb and Box Office Mojo
+# Documentation & Data Dictionary:
+# IMDb and Box Office Mojo
 
 ## IMDb Developer
 

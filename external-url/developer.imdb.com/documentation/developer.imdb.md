@@ -94,16 +94,16 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ```
 {
- "awards": [
- {
-  "year": 1958,
-  "awardName": "Golden Globe",
-  "category": "Best Actor - Drama",
-  "winner": false,
-  "event": "Golden Globes, USA"
- },
- ...
- ]
+  "awards": [
+    {
+      "year": 1958,
+      "awardName": "Golden Globe",
+      "category": "Best Actor - Drama",
+      "winner": false,
+      "event": "Golden Globes, USA"
+    },
+    ...
+  ]
 }
 ```
 

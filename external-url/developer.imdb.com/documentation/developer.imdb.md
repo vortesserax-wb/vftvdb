@@ -22,5 +22,5 @@ For technical support or licensing questions please email imdb-licensing@imdb.co
 
 IMDb uses unique identifiers for each of the entities referenced in IMDb data. For example we have “Name IDs” identifying name entities (people) and “Title IDs” identifying title entities (movies, series, episodes and video games). IMDb’s identifiers always take the form of two letters, which signify the type of entity being identified, followed by a sequence of at least seven numbers that uniquely identify a specific entity of that type. For example:
 
- • tt0050083 is the unique identifier for the movie “12 Angry Men (1957)”, where tt signifies that it’s a title entity and 0050083 uniquely indicates “12 Angry Men (1957)”.
- • nm0000020 is the unique identifier for the actor “Henry Fonda”, where nm signifies that it’s a name entity and 0000020 uniquely indicates “Henry Fonda”.
+* • tt0050083 is the unique identifier for the movie “12 Angry Men (1957)”, where tt signifies that it’s a title entity and 0050083 uniquely indicates “12 Angry Men (1957)”.
+* • nm0000020 is the unique identifier for the actor “Henry Fonda”, where nm signifies that it’s a name entity and 0000020 uniquely indicates “Henry Fonda”.

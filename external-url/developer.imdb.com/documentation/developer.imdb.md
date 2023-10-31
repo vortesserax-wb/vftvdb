@@ -110,7 +110,17 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ### filmography
 
+#### Example
+
+```
+```
+
 ### knownFor
+
+#### Example
+
+```
+```
 
 
 ## Data Dictionary - Title Essential
@@ -123,31 +133,86 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ### akas
 
+#### Example
+
+```
+```
+
 ### awards
+
+#### Example
+
+```
+```
 
 ### creditsByCategory
 
+#### Example
+
+```
+```
+
 ### principalCastMembers
+
+#### Example
+
+```
+```
 
 ### principalCrewMembers
 
+#### Example
+
+```
+```
+
 ### certificates
 
+#### Example
+
+```
+```
+
 ### companies
+
+#### Example
+
+```
+```
 
 ### countries
 
 ### episodeInfo
 
+#### Example
+
+```
+```
+
 ### seriesInfo
+
+#### Example
+
+```
+```
 
 ### episodeTitleIds
 
 ### officialSiteLinks
 
+#### Example
+
+```
+```
+
 ### genres
 
 ### image
+
+#### Example
+
+```
+```
 
 ### imdbUrl
 
@@ -159,7 +224,17 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ### locations
 
+#### Example
+
+```
+```
+
 ### movieConnections
+
+#### Example
+
+```
+```
 
 ### plot
 
@@ -171,6 +246,11 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ### releaseDates
 
+#### Example
+
+```
+```
+
 ### productionStatus
 
 ### runtimeMinutes
@@ -180,6 +260,11 @@ A list of awards that this person has won or been nominated for. This includes t
 ### titleType
 
 ### imdbRating
+
+#### Example
+
+```
+```
 
 ### year
 

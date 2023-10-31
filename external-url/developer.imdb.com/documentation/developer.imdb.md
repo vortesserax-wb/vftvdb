@@ -273,12 +273,49 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ### boxoffice_title_budgets_v1
 
+#### budgetItemType
+
+#### amount
+
 ### boxoffice_title_grosses_v1
+
+#### area
+
+#### grossToDate
+
+#### rank
 
 ### boxoffice_title_opening_weekends_v1
 
+#### area
+
+#### startDate
+
+#### endDate
+
+#### occasionId
+
+#### gross
+
+#### numTheaters
+
 ### boxoffice_title_grosses_timeseries_v1
 
+#### area
+
+#### startDate
+
+#### endDate
+
+#### occasionId
+
+#### gross
+
+#### grossToDate
+
+#### numTheaters
+
+#### rank
 
 ## Querying Data in Amazon Athena Tables
 

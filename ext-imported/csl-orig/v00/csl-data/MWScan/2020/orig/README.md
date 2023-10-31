@@ -1,1 +1,1 @@
-[mw.txt](mw.txt)
+This partial copy of [mw.txt](mw.txt) only includes a few specific lemmas from the original file, whose [viewable](../../../viewable) halves are [01](../../../../viewable/blob/main/csl-orig/v00/csl-data/MWScan/2020/orig/01) and [02].

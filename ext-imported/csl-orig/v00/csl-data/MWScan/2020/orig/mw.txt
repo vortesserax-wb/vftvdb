@@ -1,1 +1,8 @@
-temp
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mw SYSTEM "mw.dtd">
+<!-- Copyright Universitat Koln and The Sanskrit LIbrary 2012; for details see MWHeader.xml -->
+<mw>
+<L>7112.1<pc>37,3<k1>anurADA<k2>anu-rADA/<e>2B
+<s>anu-rADA/</s> ¦ ([<ls>AV.</ls> &c.]) <lex>f.</lex> the seventeenth of the twenty-eight <s1 slp1="nakzatra">Nakṣatra</s1>s or lunar mansions (a constellation described as a line of oblations). <info lex="f"/>
+<LEND>
+</mw>

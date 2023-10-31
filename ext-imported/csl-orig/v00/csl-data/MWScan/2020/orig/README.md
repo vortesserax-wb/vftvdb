@@ -1,1 +1,1 @@
-(mw.txt)
+[mw.txt]

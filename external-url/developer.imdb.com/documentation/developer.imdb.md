@@ -62,7 +62,7 @@ There are some conventions you should be aware of when using IMDb’s data set:
 
 #### Duplicate IDs
 
-IMDb’s data set is constantly being updated, adding more data and improving the quality of the data we have. While there is only ever one entry per IMDb ID, we sometimes find that we have duplicate IMDb IDs for an entity within our system. For example, we may learn that two people we have iden-tified separately are actually the same person. When this happens, we maintain the data associated with both identifiers in the data set, duplicating the data. This allows you to continue using any match-ing you have between IMDb identifiers and other identifiers. To identify when this is the case we in-clude a remappedTo field on one of the copies which gives you the new preferred identifier for that entity.
+IMDb’s data set is constantly being updated, adding more data and improving the quality of the data we have. While there is only ever one entry per IMDb ID, we sometimes find that we have duplicate IMDb IDs for an entity within our system. For example, we may learn that two people we have identified separately are actually the same person. When this happens, we maintain the data associated with both identifiers in the data set, duplicating the data. This allows you to continue using any matching you have between IMDb identifiers and other identifiers. To identify when this is the case we include a remappedTo field on one of the copies which gives you the new preferred identifier for that entity.
 
 #### Deleted IDs
 
@@ -70,7 +70,7 @@ Sometimes we delete entities from the data set. The most prominent example of th
 
 ### Data Consistency Model
 
-IMDb’s data is constantly being expanded and updated, and it can take seconds or minutes for a change to propagate throughout the entire catalog. This means that the snapshot of IMDb’s data published may contain temporary inconsistencies. For example, it is possible that we report an ac-tor appearing in a title in their filmography, but it has not yet propagated to that title’s credits. Each individual inconsistency will be resolved in the next published revision of the data set.
+IMDb’s data is constantly being expanded and updated, and it can take seconds or minutes for a change to propagate throughout the entire catalog. This means that the snapshot of IMDb’s data published may contain temporary inconsistencies. For example, it is possible that we report an actor appearing in a title in their filmography, but it has not yet propagated to that title’s credits. Each individual inconsistency will be resolved in the next published revision of the data set.
 
 ### Linking to IMDb
 
@@ -85,7 +85,7 @@ The unique IMDb ID for the name in question. Each IMDb ID appears exactly once.
 
 ### name
 
-The primary name by which this person is known, usually the one by which they are most often cred-ited. For more information about how IMDb defines the primary name see IMDb’s help site.
+The primary name by which this person is known, usually the one by which they are most often credited. For more information about how IMDb defines the primary name see IMDb’s help site.
 
 ### awards
 
@@ -110,7 +110,7 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ### filmography
 
-The filmography for this name as a list of credits. Each credit is within a “category” such as “ac- tress”, “director” or “editorial_department”. For cast categories (e.g. “actor”), we include the roles that the person played and the billing they had in the end credits (if available). For crew categories (e.g. “writer”) we include the more specific “jobs” that the person was credited with if applicable. Lists of credits, roles, and jobs are each in on-screen credits order.
+The filmography for this name as a list of credits. Each credit is within a “category” such as “actress”, “director” or “editorial_department”. For cast categories (e.g. “actor”), we include the roles that the person played and the billing they had in the end credits (if available). For crew categories (e.g. “writer”) we include the more specific “jobs” that the person was credited with if applicable. Lists of credits, roles, and jobs are each in on-screen credits order.
 
 Credits can have a list of attributes. At the moment we provide the following attributes:
 
@@ -172,7 +172,7 @@ An uncredited credit
 
 ### knownFor
 
-A short list of IMDb title IDs for the titles in which this person is most well known for being involved, and the category of job that they had on that title (e.g. “actor” or “director”). This is always a subset of filmography but the selection and order is determined by IMDb. For more details see IMDb’s help site. For further details on their involvement see the filmography entry, or the creditsByCat- egory entry on the title in question.
+A short list of IMDb title IDs for the titles in which this person is most well known for being involved, and the category of job that they had on that title (e.g. “actor” or “director”). This is always a subset of filmography but the selection and order is determined by IMDb. For more details see IMDb’s help site. For further details on their involvement see the filmography entry, or the creditsByCategory entry on the title in question.
 
 #### Example
 
@@ -205,7 +205,7 @@ The original title text of the title, normally what the title is known as in its
 
 ### akas
 
-A list of alternative title texts by which this title is also known. Each title is listed with additional in- formation about the usage of that title text, e.g. what region it is from, and what language it is used in.
+A list of alternative title texts by which this title is also known. Each title is listed with additional information about the usage of that title text, e.g. what region it is from, and what language it is used in.
 
 #### Example
 
@@ -366,7 +366,7 @@ A list of content rating certifications that have been given to a title, and the
 
 ### companies
 
-Lists of the names of distribution, production, special-effects, and other miscellaneous companies as- sociated with the making or subsequent distribution of this title. This list includes all companies that have ever been involved with the title, even if their involvement has now ended. Additional informa- tion about companies associated with titles can be found on IMDb’s help site. These are ordered by on-screen credit order, or in the case of distribution companies by distribution release date.
+Lists of the names of distribution, production, special-effects, and other miscellaneous companies associated with the making or subsequent distribution of this title. This list includes all companies that have ever been involved with the title, even if their involvement has now ended. Additional information about companies associated with titles can be found on IMDb’s help site. These are ordered by on-screen credit order, or in the case of distribution companies by distribution release date.
 
 #### Example
 
@@ -389,7 +389,7 @@ A list of ISO 3166 country codes for the countries in which the production compa
 
 ### episodeInfo
 
-For titles that are episodes, this contains information about the series, such as the series title ID, sea- son number and episode number. It also includes the season and episode numbers where relevant.
+For titles that are episodes, this contains information about the series, such as the series title ID, season number and episode number. It also includes the season and episode numbers where relevant.
 
 #### Example
 
@@ -504,7 +504,7 @@ A list of locations where scenes from this title were filmed and optionally name
 
 ### movieConnections
 
-A list of IMDb title IDs of other titles which have a connection to this title, and the type of connection, for example titles which reference or spoof this title. Optionally may include a description of the con- nection. A complete list of current connection types can be found on IMDb’s help site, although more may be added in future.
+A list of IMDb title IDs of other titles which have a connection to this title, and the type of connection, for example titles which reference or spoof this title. Optionally may include a description of the connection. A complete list of current connection types can be found on IMDb’s help site, although more may be added in future.
 
 #### Example
 
@@ -591,67 +591,129 @@ A list of production statuses for this title in ascending order by date, with th
 
 ### runtimeMinutes
 
+The running time of this title in minutes.
+
 ### taglines
+
+A list of taglines for this title. A tagline is a short description or comment on a title that is often displayed on posters. For additional details see IMDb’s help site.
 
 ### titleType
 
+The type of this title, e.g. ‘movie’ or ‘episode’.
+
 ### imdbRating
+
+The IMDb Rating for the title. The rating is between 1 and 10 and given to one decimal place. See IMDb’s help site for more information on how the rating is calculated. We also include the number of IMDb users who have voted on this title. A single IMDb user can cast a maximum of one vote. This field can be missing from an entry when we do not yet have an IMDb rating for the title in question. This can occur either because it does not yet have enough votes, or it has not yet been released. A TV series rating is not the weighted average of the ratings of individual episodes. Instead, customers vote separately for the rating of the series as a whole via each title’s series page.
 
 #### Example
 
 ```
+{
+  "rating": 8.9,
+  "numberOfVotes": 613399
+}
 ```
 
 ### year
+
+The year of the earliest release of this title globally.
 
 
 ## Data Dictionary - Box Office
 
 ### boxoffice_title_budgets_v1
 
+This file includes the reported production budget by title, where available.
+
 #### budgetItemType
+
+A description of the type of budget. The only valid value at this time is “production”.
 
 #### amount
 
+The budget for the associated titleId and budgetItemType, in USD.
+
 ### boxoffice_title_grosses_v1
+
+This file includes lifetime grosses for available titles, by area (see Appendix 1).
 
 #### area
 
+A code describing the area covered by this gross amount. See Appendix 1 for the full list of valid areas.
+
 #### grossToDate
 
+The lifetime gross for the title within the relevant area, as most recently reported, in USD.
+
 #### rank
+
+The all-time rank for that title within the relevant area.
 
 ### boxoffice_title_opening_weekends_v1
 
+This file includes opening weekend grosses for available titles, by area (see Appendix 1), along with the dates covered.
+
 #### area
+
+A code describing the area covered by this opening weekend. See Appendix 1 for the full list of valid areas.
 
 #### startDate
 
+The first day of the opening weekend for that title. Formatted as ISO 8601 (YYYY-MM-DD).
+
 #### endDate
+
+The last day of the opening weekend for that title. Formatted as ISO 8601 (YYYY-MM-DD).
 
 #### occasionId
 
+The type of date span. The only valid value at this time is “weekend”.
+
 #### gross
 
+The gross for the title within the relevant area, between the start and end dates, in USD.
+
 #### numTheaters
+
+The theater count for the title within the relevant area, between the start and end dates.
 
 ### boxoffice_title_grosses_timeseries_v1
 
+This file includes full time-series data by day, weekend, week, and more for available titles, by area (see Appendix 1), along with the dates covered and lifetime gross as of that time.
+
+Note that not all titles will have complete coverage for every combination of area and occasionId. In other words for any particular area the value of grossToDate may not be equal to the sum of all gross values. They are best used in conjunction: gross gives you summary data while the time-series file allows you to drill down into more granular slices where available.
+
 #### area
+
+A code describing the area covered by this gross value. See Appendix 1 for the full list of valid areas.
 
 #### startDate
 
+The first day of the time span that this entry refers to. Formatted as ISO 8601 (YYYY-MM-DD).
+
 #### endDate
+
+The last day of the time span that this entry refers to. Formatted as ISO 8601 (YYYY-MM-DD).
 
 #### occasionId
 
+The type of date span. Valid values include “Weekend”, “Weekly” and “Daily” as well as numerous special events and holidays.
+
 #### gross
+
+The gross for the title within the relevant area, between the start and end dates, in USD.
 
 #### grossToDate
 
+The lifetime gross for the title within the relevant area, as of the end date, in USD.
+
 #### numTheaters
 
+The theater count for the title within the relevant area, between the start and end dates.
+
 #### rank
+
+The rank for that title within the relevant area between the start and end dates.
 
 ## Querying Data in Amazon Athena Tables
 

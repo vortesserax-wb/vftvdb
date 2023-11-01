@@ -22,8 +22,8 @@ For technical support or licensing questions please email `imdb-licensing@imdb.c
 
 IMDb uses unique identifiers for each of the entities referenced in IMDb data. For example we have “Name IDs” identifying name entities (people) and “Title IDs” identifying title entities (movies, series, episodes and video games). IMDb’s identifiers always take the form of two letters, which signify the type of entity being identified, followed by a sequence of at least seven numbers that uniquely identify a specific entity of that type. For example:
 
-* tt0050083 is the unique identifier for the movie “12 Angry Men (1957)”, where tt signifies that it’s a title entity and 0050083 uniquely indicates “12 Angry Men (1957)”.
-* nm0000020 is the unique identifier for the actor “Henry Fonda”, where nm signifies that it’s a name entity and 0000020 uniquely indicates “Henry Fonda”.
+* `tt0050083` is the unique identifier for the movie “12 Angry Men (1957)”, where `tt` signifies that it’s a title entity and `0050083` uniquely indicates “12 Angry Men (1957)”.
+* `nm0000020` is the unique identifier for the actor “Henry Fonda”, where `nm` signifies that it’s a name entity and `0000020` uniquely indicates “Henry Fonda”.
 
 Within the data set, each entry relates to a single IMDb identifier.
 
@@ -35,7 +35,7 @@ IMDb’s data set is provided in JSON Lines file format. The files are UTF-8 enc
 
 Every published revision of IMDb’s data set contains data file(s), documentation for that data, and a schema which validates that data. Each of these is associated with a correlated version number, which can be found at the end of their filenames.
 
-At any time we may change the format of new data set revisions and their accompanying schema, but previously published data set revisions will remain unchanged. If data from a new revision of the data set is not compatible with the previous schema (i.e. a breaking change) then we will increment the version number for the data files, schema, and documentation. In this case we will publish both formats of the data set for some period of time before we stop publishing the older one. The data set format and schema may change without incrementing the schema version number if the change is compatible with previous revisions (i.e. a non-breaking change).
+At any time we may change the format of new data set revisions and their accompanying schema, but previously published data set revisions will remain unchanged. If data from a new revision of the data set is not compatible with the previous schema (i.e. a breaking change) then we will increment the version number for the data files, schema, and documentation. In this case we will publish both formats of the data set for some period of time before we stop publishing the older one. The data set format and schema may change `*without*` incrementing the schema version number if the change is compatible with previous revisions (i.e. a non-breaking change).
 
 The following are examples of non-breaking changes to the schema:
 

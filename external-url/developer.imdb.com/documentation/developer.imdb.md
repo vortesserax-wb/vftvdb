@@ -763,6 +763,8 @@ Running this query might return the following results:
 | titleid | originaltitle | rating | numberofvotes |
 | --- | --- | --- | --- |
 | tt0050083 | 12 Angry Men | 8.9 | 616319 |
+| tt0110413 | Léon: The Professional | 8.5 | 953632 |
+| tt0064116 | Once Upon a Time in the West | 8.5 | 278746 |
 
 ### What Are the Title Texts for the Titles That a Person Is Known For?
 

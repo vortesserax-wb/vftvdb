@@ -719,9 +719,29 @@ The rank for that title within the relevant area between the start and end dates
 
 ### What is Amazon Athena?
 
+Amazon Athena is an interactive query service that makes it easy to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL. For more information, and for getting started with Athena, read the user guide.
+
 ### Getting Started
 
+You first need to create a database in Athena. This process is documented in the user guide.
+
+When you have a database, you’re ready to create a table that’s based on the dataset. You need to upload your dataset to Amazon S3. When you specify a location for your table you should use a trailing slash for your folder or bucket. Do not use file names or glob characters.
+
+**Use:** s3://S3-BUCKET/S3-KEY/
+
+**Don’t use:** s3://S3-BUCKET s3://S3-BUCKET/S3-KEY/* s3://S3-BUCKET/S3-KEY/DATASET.JSONL.GZ
+
+Athena will query all objects in the specified location so it is important that only one dataset is found at that path.
+
+To create a table use the create table DDL statement found at the end of this document. Remember to set the location to the location of your dataset. If you do not need to query all of the columns in the table you can remove them from the create table DDL statement.
+
+Now that you have a table created in Athena based on the data in Amazon S3, you can run queries on the table and see the results in Athena.
+
+We have provided some example queries for common use cases.
+
 ### What Are the Highest-Rated Movies On IMDb?
+
+IMDb user ratings can be found in the title essential dataset as part of the imdbRating structure.
 
 ### What Are the Title Texts for the Titles That a Person Is Known For?
 

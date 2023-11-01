@@ -110,16 +110,82 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ### filmography
 
+The filmography for this name as a list of credits. Each credit is within a “category” such as “ac- tress”, “director” or “editorial_department”. For cast categories (e.g. “actor”), we include the roles that the person played and the billing they had in the end credits (if available). For crew categories (e.g. “writer”) we include the more specific “jobs” that the person was credited with if applicable. Lists of credits, roles, and jobs are each in on-screen credits order.
+
+Credits can have a list of attributes. At the moment we provide the following attributes:
+
+* “uncredited”: signals that while the person performed this role on the title, they were not present in the title’s end credits.
+* “voice”: signals that this person provided a voice only performance for this title.
+
+Additional information about these attributes can be found on IMDb’s help site.
+
+For episodic credits we only include the series in the list. To get full information on which episodes were worked on, look at the episode credits in the title file.
+
 #### Example
 
+A cast credit
+
 ```
+{
+  "filmography": [
+    {
+      "titleId": "tt0050083",
+      "category": "actor",
+      "billing": "8",
+      "roles": ["Juror 8"]
+    },
+    ...
+  ]
+}
+```
+
+A crew credit
+
+```
+{
+  "filmography": [
+    {
+      "titleId": "tt0052462",
+      "category": "producer",
+      "jobs": ["executive producer"]
+    },
+    ...
+  ]
+}
+```
+
+An uncredited credit
+
+```
+{
+  "filmography": [
+    {
+      "titleId": "tt0050083",
+      "category": "actor",
+      "roles": ["Judge"],
+      "attributes": ["uncredited"]
+    },
+    ...
+  ]
+}
 ```
 
 ### knownFor
 
+A short list of IMDb title IDs for the titles in which this person is most well known for being involved, and the category of job that they had on that title (e.g. “actor” or “director”). This is always a subset of filmography but the selection and order is determined by IMDb. For more details see IMDb’s help site. For further details on their involvement see the filmography entry, or the creditsByCat- egory entry on the title in question.
+
 #### Example
 
 ```
+{
+  "knownFor": [
+    {
+      "titleId": "tt0050083",
+      "category": "actor"
+    },
+    ...
+  ]
+}
 ```
 
 
@@ -127,29 +193,92 @@ A list of awards that this person has won or been nominated for. This includes t
 
 ### titleId
 
+The unique IMDb ID for the title in question. Each IMDb ID appears exactly once.
+
 ### remappedTo
+
+If there are duplicate title entities for this title, the IMDb ID of the primary title entity for this title. See “Duplicate IDs” in the “Key Concepts” section of this document for more information.
 
 ### originalTitle
 
+The original title text of the title, normally what the title is known as in its original country of release.
+
 ### akas
+
+A list of alternative title texts by which this title is also known. Each title is listed with additional in- formation about the usage of that title text, e.g. what region it is from, and what language it is used in.
 
 #### Example
 
 ```
+{
+  "akas": [
+    {
+      "title": "12 Homens e uma Sentença",
+      "region": "BR"
+    },
+    ...
+  ]
+}
 ```
 
 ### awards
 
+A list of awards that this title has won or been nominated for. This includes the name and category of the award, the name and year of the award event, and whether the title won the award. Note that ‘winner’ may be false because the title is known not to have won the award (where the awards event occured in the past) or because the winner is not yet known (where the awards event occurs in the future, but the nominations have been announced). If ‘winner’ is true that means the awards event has already occured, and the title won the award.
+
 #### Example
 
 ```
+{
+  "awards": [
+    {
+      "awardName": "Oscar",
+      "category": "Best Picture",
+      "event": "Academy Awards, USA",
+      "winner": false,
+      "year": 1958
+    },
+    ...
+  ]
+}
 ```
 
 ### creditsByCategory
 
+The credits for this title organized by category. Each entry in this list represents a single category and gives you a list of credits within that category. For cast credits we include the roles that the person played and the billing they had in the end credits (if available). For crew credits we include the more specific “jobs” that the person was credited with if applicable. Lists of credits, roles, and jobs are each in on-screen credits order.
+
+Credits can have a list of attributes. At the moment we provide the following attributes:
+
+* “uncredited”: signals that while the person performed this role on the title, they were not present in the title’s end credits.
+* “voice”: signals that this person provided a voice only performance for this title.
+
+Additional information about these attributes can be found on IMDb’s help site.
+
+For series we include anyone who is credited on any episode. To get full information on which episodes were worked on by a specific person, look at the episode credits.
+
 #### Example
 
+A crew category
+
 ```
+{
+  "creditsByCategory": [
+    {
+      "category": "sound_department",
+      "credits": [
+        {
+          "nameId": "nm0322302",
+          "jobs": ["sound"]
+        },
+        {
+          "nameId": "nm0334505",
+          "jobs": ["re-recording mixer"],
+          "attributes": ["uncredited"]
+        }
+      ]
+    },
+    ...
+  ]
+}
 ```
 
 ### principalCastMembers

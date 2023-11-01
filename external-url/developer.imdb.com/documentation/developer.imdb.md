@@ -760,9 +760,9 @@ order by
 
 Running this query might return the following results:
 
-| foo | bar |
-| --- | --- |
-| baz | bim |
+| titleid | originaltitle | rating | numberofvotes |
+| --- | --- | --- | --- |
+| tt0050083 | 12 Angry Men | 8.9 | 616319 |
 
 ### What Are the Title Texts for the Titles That a Person Is Known For?
 

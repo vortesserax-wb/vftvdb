@@ -37,14 +37,14 @@ Every published revision of IMDb’s data set contains data file(s), documentati
 
 At any time we may change the format of new data set revisions and their accompanying schema, but previously published data set revisions will remain unchanged. If data from a new revision of the data set is not compatible with the previous schema (i.e. a breaking change) then we will increment the version number for the data files, schema, and documentation. In this case we will publish both formats of the data set for some period of time before we stop publishing the older one. The data set format and schema may change *`without`* incrementing the schema version number if the change is compatible with previous revisions (i.e. a non-breaking change).
 
-The following are examples of non-breaking changes to the schema:
+The following are examples of *`non-breaking`* changes to the schema:
 
 * Adding a new key anywhere in the structure.
 * Removing an optional key.
 * Changing a key from optional to required.
 * Changing the validation rules for a specific key such that all values still validate against previous validation rules.
 
-The following are examples of breaking changes to the schema:
+The following are examples of *`breaking`* changes to the schema:
 
 * Changing a key from required to optional.
 * Removing a required key.
@@ -74,7 +74,7 @@ IMDb’s data is constantly being expanded and updated, and it can take seconds 
 
 ### Linking to IMDb
 
-IMDb’s data contains URLs that you can use to link back to the IMDb website in any experience you build for your users. Your license may require you to attach a “refmarker” to the end of the URL. The “refmarker” is a special sequence of characters that we use to identify the source of our traffic. Add the “refmarker” to the URL by appending ?ref_=xx_xxx_x to the URL, where xx_xxx_x is replaced by the code we have provided to you. A full URL could look something like https://www.imdb.com/title/tt0050083/?ref_=my_ref_marker.
+IMDb’s data contains URLs that you can use to link back to the IMDb website in any experience you build for your users. Your license may require you to attach a “refmarker” to the end of the URL. The “refmarker” is a special sequence of characters that we use to identify the source of our traffic. Add the “refmarker” to the URL by appending ?`ref_=xx_xxx_x` to the URL, where `xx_xxx_x` is replaced by the code we have provided to you. A full URL could look something like `https://www.imdb.com/title/tt0050083/?ref_=my_ref_marker`.
 
 
 ## Data Dictionary - Name Essential
@@ -172,7 +172,7 @@ An uncredited credit
 
 ### knownFor
 
-A short list of IMDb title IDs for the titles in which this person is most well known for being involved, and the category of job that they had on that title (e.g. “actor” or “director”). This is always a subset of filmography but the selection and order is determined by IMDb. For more details see IMDb’s help site. For further details on their involvement see the filmography entry, or the creditsByCategory entry on the title in question.
+A short list of IMDb title IDs for the titles in which this person is most well known for being involved, and the category of job that they had on that title (e.g. “actor” or “director”). This is always a subset of `filmography` but the selection and order is determined by IMDb. For more details see IMDb’s help site. For further details on their involvement see the `filmography` entry, or the `creditsByCategory` entry on the title in question.
 
 #### Example
 
@@ -309,7 +309,7 @@ A cast category
 
 ### principalCastMembers
 
-A short list of the most important cast credits for this title. This is always a subset of the cast from the creditsByCategory list, but the selection and order is determined by IMDb. Often it is similar to top-billed cast but it can be different, for example if the title credits are in order of appearance or alphabetical. For more details see IMDb’s help site. Also includes the role or roles played (in on-screen credits order) and the billing in the full cast list.
+A short list of the most important cast credits for this title. This is always a subset of the cast from the `creditsByCategory` list, but the selection and order is determined by IMDb. Often it is similar to top-billed cast but it can be different, for example if the title credits are in order of appearance or alphabetical. For more details see IMDb’s help site. Also includes the role or roles played (in on-screen credits order) and the billing in the full cast list.
 
 #### Example
 
@@ -329,7 +329,7 @@ A short list of the most important cast credits for this title. This is always a
 
 ### principalCrewMembers
 
-A short list of the most important crew credits for this title. This is always a subset of the crew from the creditsByCategory list, but the selection and order is determined by IMDb. Also includes the category and job which qualified the credit for this list.
+A short list of the most important crew credits for this title. This is always a subset of the crew from the `creditsByCategory` list, but the selection and order is determined by IMDb. Also includes the category and job which qualified the credit for this list.
 
 #### Example
 
@@ -470,7 +470,7 @@ A URL linking to an image associated with this title, such as a movie poster or 
 
 ### imdbUrl
 
-A full URL to see the name or title on www.imdb.com.
+A full URL to see the name or title on `www.imdb.com`.
 
 ### isAdult
 
@@ -542,7 +542,7 @@ A synopsis of this title. A long detailed description of the entire plot of the 
 
 A list of the release dates (ISO 8601 date format) for this title, together with the region (an ISO 3166 country code) to which each release date applies.
 
-Note that each release date may specify year, month and day (e.g. 1979-08-16), year and month (e.g. 1979-08) or only year (e.g. 1979).
+Note that each release date may specify year, month and day (e.g. `1979-08-16`), year and month (e.g. `1979-08`) or only year (e.g. `1979`).
 
 #### Example
 
@@ -681,7 +681,7 @@ The theater count for the title within the relevant area, between the start and 
 
 This file includes full time-series data by day, weekend, week, and more for available titles, by area (see Appendix 1), along with the dates covered and lifetime gross as of that time.
 
-Note that not all titles will have complete coverage for every combination of area and occasionId. In other words for any particular area the value of grossToDate may not be equal to the sum of all gross values. They are best used in conjunction: gross gives you summary data while the time-series file allows you to drill down into more granular slices where available.
+Note that not all titles will have complete coverage for every combination of area and occasionId. In other words for any particular area the value of `grossToDate` may not be equal to the sum of all `gross` values. They are best used in conjunction: `gross` gives you summary data while the time-series file allows you to drill down into more granular slices where available.
 
 #### area
 
@@ -741,7 +741,24 @@ We have provided some example queries for common use cases.
 
 ### What Are the Highest-Rated Movies On IMDb?
 
-IMDb user ratings can be found in the title essential dataset as part of the imdbRating structure.
+IMDb user ratings can be found in the title essential dataset as part of the `imdbRating` structure.
+
+```
+select
+    tc.titleId,
+    tc.originalTitle,
+    tc.imdbRating.rating,
+    tc.imdbRating.numberOfVotes
+from
+    title_essential_v1 as tc
+where
+    tc.remappedTo is null and tc.titleType = 'movie'
+order by
+    tc.imdbRating.rating desc,
+    tc.imdbRating.numberOfVotes desc
+```
+
+Running this query might return the following results:
 
 ### What Are the Title Texts for the Titles That a Person Is Known For?
 

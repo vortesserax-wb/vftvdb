@@ -281,48 +281,148 @@ A crew category
 }
 ```
 
+A cast category
+
+```
+{
+  "creditsByCategory": [
+    {
+      "category": "cast",
+      "credits": [
+        {
+          "nameId": "nm0000842",
+          "roles": ["Juror 1"],
+          "billing": 1
+        },
+        {
+          "nameId": "nm0275835",
+          "roles": ["Juror 2"],
+          "billing": 2
+        },
+        ...
+      ]
+    },
+    ...
+  ]
+}
+```
+
 ### principalCastMembers
+
+A short list of the most important cast credits for this title. This is always a subset of the cast from the creditsByCategory list, but the selection and order is determined by IMDb. Often it is similar to top-billed cast but it can be different, for example if the title credits are in order of appearance or alphabetical. For more details see IMDb’s help site. Also includes the role or roles played (in on-screen credits order) and the billing in the full cast list.
 
 #### Example
 
 ```
+{
+  "principalCastMembers": [
+    {
+      "nameId": "nm0000020",
+      "category": "actor",
+      "roles": ["Juror 8"],
+      "billing": "8"
+    },
+    ...
+  ]
+}
 ```
 
 ### principalCrewMembers
 
+A short list of the most important crew credits for this title. This is always a subset of the crew from the creditsByCategory list, but the selection and order is determined by IMDb. Also includes the category and job which qualified the credit for this list.
+
 #### Example
 
 ```
+{
+  "principalCrewMembers": [
+    {
+      "nameId": "nm0741627",
+      "category": "writer",
+      "job": "story"
+    },
+    ...
+  ]
+}
 ```
 
 ### certificates
 
+A list of content rating certifications that have been given to a title, and the region where the rating applies or applied. For example a title may be given a ‘PG-13’ rating in the ‘US’ region (by the MPAA). There may be additional attributes about the certificate or reasons for the rating provided by the rating organization.
+
 #### Example
 
 ```
+{
+  "certificates": [
+    {
+      "region": "US",
+      "rating": "TV-PG"
+    },
+    ...
+  ]
+}
 ```
 
 ### companies
 
+Lists of the names of distribution, production, special-effects, and other miscellaneous companies as- sociated with the making or subsequent distribution of this title. This list includes all companies that have ever been involved with the title, even if their involvement has now ended. Additional informa- tion about companies associated with titles can be found on IMDb’s help site. These are ordered by on-screen credit order, or in the case of distribution companies by distribution release date.
+
 #### Example
 
 ```
+{
+  "companies": {
+    "distribution": ["United Artists", "CBS/Fox", "Warner Home Video"],
+    "production": ["Orion-Nova Productions"],
+    "miscellaneous": [
+      "International Alliance of Theatrical Stage Employees (IATSE)",
+      "Solters & Digney"
+    ]
+  }
+}
 ```
 
 ### countries
 
+A list of ISO 3166 country codes for the countries in which the production companies for the title are based. For more details see IMDb’s help site.
+
 ### episodeInfo
+
+For titles that are episodes, this contains information about the series, such as the series title ID, sea- son number and episode number. It also includes the season and episode numbers where relevant.
 
 #### Example
 
 ```
+{
+  "episodeInfo":
+    {
+      "seriesTitleId": "tt0944947",
+      "episodeNumber": 1,
+      "seasonNumber": 8
+    }
+}
 ```
 
 ### seriesInfo
 
+For titles that are series, this contains additional information about the series, such as the year it started airing, the year it finished airing (if it has finished), and a list of all the episode title IDs in the series ordered by episode number (e.g. season 1 episode 1, season 1 episode 2, etc.).
+
 #### Example
 
 ```
+{
+  "seriesInfo": {
+    "startYear": 2011,
+    "endYear": 2019,
+    "episodeTitleIds": [
+        "tt1480055",
+        "tt1668746",
+        "tt1829962"
+        ...
+    ]
+  }
+}
 ```
 
 ### episodeTitleIds

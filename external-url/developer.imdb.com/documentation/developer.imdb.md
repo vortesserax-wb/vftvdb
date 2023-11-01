@@ -427,60 +427,167 @@ For titles that are series, this contains additional information about the serie
 
 ### episodeTitleIds
 
+For titles which are series, the IMDb title IDs for all the episodes of that series.
+
 ### officialSiteLinks
+
+A list of URLs (and optionally their link titles) linking to this title’s official website.
 
 #### Example
 
 ```
+{
+  "officialSiteLinks": [
+    {
+      "url": "www.example.com/official/example-title",
+      "linkTitle": "Example official website for title"
+    },
+    ...
+  ]
+}
 ```
 
 ### genres
 
+A list of genres to which this title belongs. The full list of allowed genres and guidelines for how titles should be categorized can be found on IMDb’s help site. IMDb defines a limited list of genres but may add more in the future.
+
 ### image
+
+A URL linking to an image associated with this title, such as a movie poster or still frame. Additionally includes the width and height of the image in pixels.
 
 #### Example
 
 ```
+{
+  "image": {
+    "url": "https://m.media-
+     ↪  amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+    "height": 1500,
+    "width": 974
+  }
+}
 ```
 
 ### imdbUrl
 
+A full URL to see the name or title on www.imdb.com.
+
 ### isAdult
+
+Whether or not this title contains adult content. Useful if you would like to filter out all adult content from your copy of the data set.
 
 ### keywords
 
+A list of keywords associated with the title. More information about keywords and guidance for how they might be associated with at title can be found on IMDb’s help site.
+
 ### languages
 
+A list of ISO 639 language codes for the languages spoken in this title, in order of frequency that they are spoken in the title. For more details see IMDb’s help site.
+
 ### locations
+
+A list of locations where scenes from this title were filmed and optionally names or descriptions of the scenes which used that location.
 
 #### Example
 
 ```
+{
+  "locations": [
+    {
+      "scenes": ["studio"],
+      "place": "Fox Movietone Studio, New York, USA"
+    },
+    ...
+  ]
+}
 ```
 
 ### movieConnections
 
+A list of IMDb title IDs of other titles which have a connection to this title, and the type of connection, for example titles which reference or spoof this title. Optionally may include a description of the con- nection. A complete list of current connection types can be found on IMDb’s help site, although more may be added in future.
+
 #### Example
 
 ```
+{
+  "movieConnections": [
+    {
+      "type": "referenced_in",
+      "titleId": "tt2336547",
+      "text": "Jack criticizes the film for depicting 11 Americans being
+       ↪  swayed by Jane Fonda's father"
+    },
+    ...
+  ]
+}
 ```
 
 ### plot
 
+A plot description of this title. Most plot descriptions will be just a couple of sentences long, however some may be longer, the ‘plot’ will contain the shortest of ‘plotShort’, ‘plotMedium’ or ‘plotLong’ and may be omitted. If you are displaying these plots you may need to consider truncation on longer plots.
+
 ### plotShort
+
+A plot outline of this title, no longer than 239 characters. Plot outlines never contain spoilers.
 
 ### plotMedium
 
+A plot summary of this title. Most plot summaries will be reasonably brief, a paragraph or two. If there are multiple plot summaries available on this title’s Plot page on IMDb.com, then the one provided here will have been selected to display prominently on the title’s main page by our users or manual vetting team.
+
 ### plotLong
 
+A synopsis of this title. A long detailed description of the entire plot of the title.
+
 ### releaseDates
+
+A list of the release dates (ISO 8601 date format) for this title, together with the region (an ISO 3166 country code) to which each release date applies.
+
+Note that each release date may specify year, month and day (e.g. 1979-08-16), year and month (e.g. 1979-08) or only year (e.g. 1979).
 
 #### Example
 
 ```
+{
+  "releaseDates": [
+    {
+      "date": "1957-04",
+      "region": "GB"
+    },
+    {
+      "date": "1957-04-10",
+      "region": "US"
+    },
+    {
+      "date": "2016-02-24",
+      "region": "CZ"
+    },
+    ...
+  ]
+}
 ```
 
 ### productionStatus
+
+A list of production statuses for this title in ascending order by date, with the last status being the current production status. The available statuses for in-production listings are available on IMDb’s help site.
+
+```
+{
+  "productionStatus": [
+    ...{
+      "updated": "2008-12-02",
+      "status": "pre production"
+    },
+    {
+      "updated": "2008-12-02",
+      "status": "pre production"
+    },
+    {
+      "updated": "2008-12-02",
+      "status": "pre production"
+    }
+  ]
+}
+```
 
 ### runtimeMinutes
 

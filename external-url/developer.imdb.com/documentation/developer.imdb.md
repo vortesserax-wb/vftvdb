@@ -760,6 +760,10 @@ order by
 
 Running this query might return the following results:
 
+| foo | bar |
+| --- | --- |
+| baz | bim |
+
 ### What Are the Title Texts for the Titles That a Person Is Known For?
 
 ### What Are the Names of the Principal Cast for a Title?

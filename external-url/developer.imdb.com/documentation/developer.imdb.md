@@ -768,7 +768,38 @@ Running this query might return the following results:
 
 ### What Are the Title Texts for the Titles That a Person Is Known For?
 
+The title IDs that a person is known for can be found in the name essential dataset as part of the `knownFor` array. To query this array it is necessary to flatten it into multiple rows using `CROSS JOIN` in conjunction with the `UNNEST` operator. To include the original title text it is necessary to `JOIN` the title essential dataset.
+
+```
+select
+    nc.nameId,
+    nc.name,
+    u_knownFor.titleId,
+    tc.originalTitle
+from
+    name_essential_v1 as nc
+cross join
+    unnest(nc.knownFor) with ordinality as t(u_knownFor, ordinal)
+join
+    title_essential_v1 as tc
+        on u_knownFor.titleId = tc.titleId
+where
+    nc.remappedTo is null
+order by
+    nc.nameId, ordinal
+```
+
+Running this query might return the following results:
+
+| nameid | name | titleid | originaltitle |
+| --- | --- | --- | --- |
+| nm0000020 | Henry Fonda | tt0050083 | 12 Angry Men |
+| nm0000020 | Henry Fonda | tt0082846 | On Golden Pond |
+| nm0000020 | Henry Fonda | tt0032551 | The Grapes of Wrath |
+
 ### What Are the Names of the Principal Cast for a Title?
+
+The name IDs for the principal cast for a title can be found in the title essential dataset as part of the `principalCastMembers` array. To query this array it is necessary to flatten it into multiple rows using `CROSS JOIN` in conjunction with the `UNNEST` operator. To include the name it is necessary to `JOIN` the name essential dataset.
 
 ### What Awards was a Title Nominated for, and who were the Award Nominees?
 

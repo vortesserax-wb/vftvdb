@@ -13,7 +13,7 @@ Our full range of bulk data products are delivered through Amazon Data Exchange 
 
 ## Getting Support
 
-For technical support or licensing questions please email imdb-licensing@imdb.com.
+For technical support or licensing questions please email `imdb-licensing@imdb.com`.
 
 
 ## Key Concepts

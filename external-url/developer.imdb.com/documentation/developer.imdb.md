@@ -760,7 +760,7 @@ order by
 
 Running this query might return the following results:
 
-| titleid | originaltitle | rating | numberofvotes |
+| titleId | originalTitle | rating | numberOfVotes |
 | --- | --- | --- | --- |
 | tt0050083 | 12 Angry Men | 8.9 | 616319 |
 | tt0110413 | Léon: The Professional | 8.5 | 953632 |
@@ -791,7 +791,7 @@ order by
 
 Running this query might return the following results:
 
-| nameid | name | titleid | originaltitle |
+| nameId | name | titleId | originalTitle |
 | --- | --- | --- | --- |
 | nm0000020 | Henry Fonda | tt0050083 | 12 Angry Men |
 | nm0000020 | Henry Fonda | tt0082846 | On Golden Pond |
@@ -801,12 +801,124 @@ Running this query might return the following results:
 
 The name IDs for the principal cast for a title can be found in the title essential dataset as part of the `principalCastMembers` array. To query this array it is necessary to flatten it into multiple rows using `CROSS JOIN` in conjunction with the `UNNEST` operator. To include the name it is necessary to `JOIN` the name essential dataset.
 
+```
+select
+    tc.titleId,
+    tc.originalTitle,
+    nc.name
+from
+    title_essential_v1 as tc
+cross join
+    unnest(tc.principalCastMembers) with ordinality as t(u_pcm, ordinal)
+join
+    name_essential_v1 as nc
+        on u_pcm.nameId = nc.nameId
+where
+    tc.remappedTo is null
+order by
+    tc.titleId, ordinal
+```
+
+Running this query on the sample dataset returns the following results:
+
+| titleId | originalTitle | nameId | name |
+| --- | --- | --- | --- |
+| tt0050083 | 12 Angry Men | nm0000020 | Henry Fonda |
+| tt0050083 | 12 Angry Men | nm0002011 | Lee J. Cobb |
+| tt0050083 | 12 Angry Men | nm0000842 | Martin Balsam |
+
 ### What Awards was a Title Nominated for, and who were the Award Nominees?
+
+```
+select
+    tc.titleId,
+    tc.originalTitle,
+    tc_awards.awardNominationId,
+    tc_awards.awardName,
+    nc.nameId,
+    nc.name
+from
+    name_essential_v1 as nc
+cross join
+    unnest(nc.knownFor) with ordinality as t(u_knownFor, ordinal)
+join
+    title_essential_v1 as tc
+        on u_knownFor.titleId = tc.titleId
+cross join
+    unnest(tc.awards) as t(tc_awards)
+cross join
+     unnest(nc.awards) as t(nc_awards)
+where
+    tc_awards.awardNominationid = nc_awards.awardNominationId
+```
+
+Running this query might return the following results:
+
+| titleId | originalTitle | awardNominationId | awardName | nameId | name |
+| --- | --- | --- | --- | --- | --- |
+| tt0032551 | The Grapes of Wrath | an0052939 | Oscar | nm0002034 | Jane Darwell |
+| tt0032551 | The Grapes of Wrath | an0829169 | NBR award | nm0002034 | Jane Darwell |
+| tt0032551 | The Grapes of Wrath | an0052926 | Oscar | nm0000020 | Henry Fonda |
 
 ### What Are the Title Texts for Episodes of a Series?
 
+The title IDs for episodes that are part of a series can be found in the title essential dataset as part of the `episodeTitleIds` array. To query this array it is necessary to flatten it into multiple rows using `CROSS JOIN` in conjunction with the `UNNEST` operator. To include the title text it is necessary to `JOIN` the title essential dataset.
+
+```
+select
+    tc_series.titleId,
+    tc_series.originalTitle,
+    tc_episode.titleId,
+    tc_episode.originalTitle,
+    tc_episode.episodeInfo.seasonNumber,
+    tc_episode.episodeInfo.episodeNumber
+from
+    title_essential_v1 as tc_series
+cross join
+    unnest(tc_series.seriesInfo.episodeTitleIds) as t(u_eti)
+join
+    title_essential_v1 as tc_episode
+        on u_eti = tc_episode.titleId
+where
+    tc_series.remappedTo is null
+order by
+    tc_series.titleId,
+    tc_episode.episodeInfo.seasonNumber,
+    tc_episode.episodeInfo.episodeNumber
+```
+
+Running this query might return the following results:
+
+| titleId | originalTitle | titleId | originalTitle | seasonnumber | episodenumber |
+| --- | --- | --- | --- | --- | --- |
+| tt5491994 | Planet Earth II | tt6142646 | Islands | 1 | 1 |
+| tt5491994 | Planet Earth II | tt6209126 | Mountains | 1 | 2 |
+| tt5491994 | Planet Earth II | tt6209130 | Jungles | 1 | 3 |
+
 ### What Is the Title Text of the Series for an Episode Title?
 
+The title ID for a series that an episode is part of can be found in the title essential dataset as part of the `episodeInfo` structure. To include the title text it is necessary to `JOIN` the title essential dataset.
+
+```
+select
+    tc_episode.titleId,
+    tc_episode.originalTitle,
+    tc_series.titleId,
+    tc_series.originalTitle,
+    tc_episode.episodeInfo.seasonNumber,
+    tc_episode.episodeInfo.episodeNumber
+from
+    title_essential_v1 as tc_episode
+join
+    title_essential_v1 as tc_series
+        on tc_episode.episodeInfo.seriesTitleId = tc_series.titleId
+where
+    tc_episode.remappedTo is null
+order by
+    tc_episode.titleId
+```
+
+Running this query might return the following results:
 
 ## Appendix 1: Box Office Mojo Areas
 

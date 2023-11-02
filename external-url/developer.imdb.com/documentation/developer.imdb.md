@@ -920,8 +920,47 @@ order by
 
 Running this query might return the following results:
 
+| titleId | originalTitle | titleId | originalTitle | seasonnumber | episodenumber |
+| --- | --- | --- | --- | --- | --- |
+| tt6142646 | Islands | tt5491994 | Planet Earth II | 1 | 1 |
+| tt6209126 | Mountains | tt5491994 | Planet Earth II | 1 | 2 |
+| tt6209130 | Jungles | tt5491994 | Planet Earth II | 1 | 3 |
+
 ## Appendix 1: Box Office Mojo Areas
 
 ### Area Rollups and Special Areas
+
+| Area abbreviation | Full area description | Notes |
+| --- | --- | --- |
+| XDOM | Domestic | Reporting includes US and Canada |
+| XWW | Worldwide |  |
+| XNDOM | International |  |
+| XA2 | Southern, Eastern, and Western Africa |  |
+| XA3 | South Africa and Nigeria |  |
+| XB2 | Baltic States |  |
+| XBA | Bosnia |  |
+| XC3 | Czech Republic and Slovakia |  |
+| XC4 | Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Panama and Paraguay |  |
+| XCN | Aruba, Belize, Bolivia, Bonaire, Costa Rica, Curacao, and Dominican Republic |  |
+| XEW | Ghana, Kenya, Nigeria, Tanzania, Zambia and Uganda |  |
+| XG2 | West Germany |  |
+| XGC | Greece and Cyprus |  |
+| XKN | Kenya, Somalia, Tanzania and Uganda |  |
+| XL2 | Latin America |  |
+| XL3 | Lebanon and United Arab Emirates |  |
+| XM2 | Middle East |  |
+| XM7 | Middle East including United Arab Emirates |  |
+| XMO | Miscellaneous Middle East |  |
+| XR2 | Russia and Commonwealth of Independent States |  |
+| XRE | Reunion |  |
+| XRK | Russia, Commonwealth of Independent States and Ukraine |  |
+| XS1 | Switzerland (German) |  |
+| XS2 | Serbia and Montenegro |  |
+| XS3 | Switzerland (French) |  |
+| XS4 | Switzerland (Italian) |  |
+| XS5 | Switzerland (French/Italian) |  |
+| XT2 | Antigua and Barbuda, Barbados, Dominica, Grenada, Guyana, St. Lucia, and St. Vincent |  |
+| XW2 | West Indies |  |
+|  |  |  |
 
 ### Individual Areas

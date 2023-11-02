@@ -961,6 +961,138 @@ Running this query might return the following results:
 | XS5 | Switzerland (French/Italian) |  |
 | XT2 | Antigua and Barbuda, Barbados, Dominica, Grenada, Guyana, St. Lucia, and St. Vincent |  |
 | XW2 | West Indies |  |
-|  |  |  |
 
 ### Individual Areas
+
+| Area abbreviation | Full area description | Notes |
+| --- | --- | --- |
+| AD | Andorra |  |
+| AD | Andorra |  |
+| AE | United Arab Emirates |  |
+| AF | Afghanistan |  |
+| AG | Antigua |  |
+| AL | Albania |  |
+| AM | Armenia |  |
+| AN | Netherlands Antilles |  |
+| AO | Angola | Included in PT |
+| AQ | Antarctica |  |
+| AR | Argentina |  |
+| AT | Austria |  |
+| AU | Australia |  |
+| AW | Aruba |  |
+| AZ | Azerbaijan |  |
+| BT | Bhutan |  |
+| BA | Bosnia and Herzegovina |  |
+| BB | Barbados |  |
+| BE | Belgium | Reporting includes Luxembourg |
+| BH | Bahrain |  |
+| BM | Bermuda |  |
+| BD | Bangladesh |  |
+| BO | Bolivia |  |
+| BR | Brazil |  |
+| BS | Bahamas |  |
+| BW | Botswana |  |
+| BY | Belarus |  |
+| BZ | Belize |  |
+| CH | Switzerland |  |
+| CO | Colombia |  |
+| CU | Cuba |  |
+| CA | Canada |  |
+| CN | China |  |
+| CL | Chile |  |
+| CR | Costa Rica |  |
+| CW | Curacao |  |
+| CY | Cyprus |  |
+| CZ | Czech Republic |  |
+| DE | Germany |  |
+| DJ | Djibouti |  |
+| DK | Denmark |  |
+| DO | Dominican Republic |  |
+| DZ | Algeria | Included in FR |
+| KE | Kenya |  |
+| EC | Ecuador |  |
+| EE | Estonia |  |
+| EG | Egypt |  |
+| ES | Spain |  |
+| ET | Ethopia |  |
+| FI | Finland |  |
+| FR | France | Reporting includes Algeria, Monaco, Morocco, and Tunisia |
+| GH | Ghana |  |
+| GR | Greece |  |
+| GT | Guatemala |  |
+| GU | Guinea |  |
+| NL | Netherlands |  |
+| HK | Hong Kong |  |
+| HN | Honduras |  |
+| HR | Croatia |  |
+| HU | Hungary |  |
+| ID | Indonesia |  |
+| IE | Ireland | Included in GB |
+| IL | Israel |  |
+| IN | India |  |
+| IQ | Iraq |  |
+| IR | Iran |  |
+| IS | Iceland |  |
+| IT | Italy |  |
+| JM | Jamaica |  |
+| JO | Jordan |  |
+| JP | Japan |  |
+| KH | Cambodia |  |
+| KR | South Korea |  |
+| KW | Kuwait |  |
+| KZ | Kazakhstan |  |
+| LI | Liechtenstein |  |
+| LA | Laos |  |
+| LB | Lebanon |  |
+| LT | Lithuania |  |
+| LV | Latvia |  |
+| LU | Luxembourg | Included in BE |
+| MA | Morocco | Included in FR |
+| MK | North Macedonia |  |
+| MT | Malta | Included in GB |
+| MN | Mongolia |  |
+| MU | Mauritius |  |
+| MX | Mexico |  |
+| MY | Malaysia |  |
+| MZ | Mozambique |  |
+| NC | New Caledonia |  |
+| NG | Nigeria |  |
+| NI | Nicaragua |  |
+| NO | Norway |  |
+| NZ | New Zealand | Reporting includes Fiji |
+| OM | Oman |  |
+| PA | Panama |  |
+| PS | Palestine |  |
+| PE | Peru |  |
+| PY | Paraguay |  |
+| PH | Philippines |  |
+| PK | Pakistan |  |
+| PL | Poland |  |
+| PR | Puerto Rico |  |
+| PT | Portugal | Reporting includes Angola |
+| QA | Qatar |  |
+| RO | Romania |  |
+| RU | Russia |  |
+| RW | Rwanda |  |
+| SU | HH Soviet Union |  |
+| SN | Senegal |  |
+| SA | Saudi Arabia |  |
+| SE | Sweden |  |
+| SG | Singapore |  |
+| SI | Slovenia |  |
+| SV | El Salvador |  |
+| LK | Sri Lanka |  |
+| SK | Slovakia |  |
+| SR | Suriname |  |
+| SY | Syria |  |
+| TH | Thailand |  |
+| TR | Turkey |  |
+| TT | Trinidad and Tobago |  |
+| TN | Tunisia | Included in FR |
+| TW | Taiwan |  |
+| UT | Uruguay |  |
+| GB | Great Britain | Reporting includes, UK, Ireland, and Malta |
+| UZ | Uzbekistan |  |
+| VE | Venezuela |  |
+| YU | Yugoslavia |  |
+| ZA | South Africa |  |

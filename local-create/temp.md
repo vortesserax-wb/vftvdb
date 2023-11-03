@@ -554,3 +554,358 @@
 | nm0005093 | Regina King | Ray | 1971-01-15 |
 | nm7607873 | Stefanie Martini | Prime Suspect 1973 | 1990-10-06 |
 | nm1790970 | Jessica Williams | Shrinking | 1989-07-31 |
+
+| Const | Name | Known For | Birth Date |
+| --- | --- | --- | --- |
+| nm1166041 | Ophelia Lovibond | Guardians of the Galaxy | 1986-02-19 |
+| nm0001610 | Elizabeth Perkins | Sharp Objects | 1960-11-18 |
+| nm0005576 | Drea de Matteo | The Sopranos | 1972-01-19 |
+| nm0607865 | Emily Mortimer | Mary Poppins Returns | 1971-10-06 |
+| nm1880888 | Olivia Thirlby | Juno | 1986-10-06 |
+| nm0000569 | Gwyneth Paltrow | Shakespeare in Love | 1972-09-27 |
+| nm4004793 | Letitia Wright | Black Panther | 1993-10-31 |
+| nm0514228 | Peyton List | The Tomorrow People | 1986-08-08 |
+| nm0000167 | Elizabeth Hurley | Austin Powers: International Man of Mystery | 1965-06-10 |
+| nm0334561 | Spencer Grammer | Rick and Morty |  |
+| nm1813221 | Gugu Mbatha-Raw | Belle | 1983-04-21 |
+| nm0217221 | Grey Griffin | Batman: Arkham City | 1973-08-24 |
+| nm1102891 | Kristen Schaal | Cloudy with a Chance of Meatballs 2 | 1978-01-24 |
+| nm6161516 | Camila Mendes | Riverdale | 1994-06-29 |
+| nm0000171 | Ashley Judd | Double Jeopardy | 1968-04-19 |
+| nm0000143 | Erika Eleniak | Under Siege | 1969-09-29 |
+| nm0329481 | Ginnifer Goodwin | Zootopia | 1978-05-22 |
+| nm0009918 | Amy Acker | Angel | 1976-12-05 |
+| nm2319871 | Anna Camp | Pitch Perfect | 1982-09-27 |
+| nm1667364 | Ashley Benson | Spring Breakers | 1989-12-18 |
+| nm0120648 | Cara Buono | Stranger Things |  |
+| nm0004989 | Alyson Hannigan | Buffy the Vampire Slayer | 1974-03-24 |
+| nm0000932 | Halle Berry | Catwoman | 1966-08-14 |
+| nm0000403 | Bridget Fonda | A Simple Plan | 1964-01-27 |
+| nm0005513 | Alanna Ubach | Bombshell | 1975-10-03 |
+| nm1128572 | Lake Bell | In a World... | 1979-03-24 |
+| nm3625065 | Alexis Knapp | Pitch Perfect | 1989-07-31 |
+| nm4454223 | Emilia Jones | CODA | 2002-02-23 |
+| nm0000539 | Dina Meyer | Starship Troopers | 1968-12-22 |
+| nm0000153 | Gina Gershon | Bound | 1962-06-10 |
+| nm0348152 | Anna Gunn | Breaking Bad | 1968-08-11 |
+| nm0571952 | Kate McKinnon | Ghostbusters | 1984-01-06 |
+| nm2177528 | Kate Micucci | When in Rome | 1980-03-31 |
+| nm0001721 | Chloë Sevigny | We Are Who We Are |  |
+| nm0000775 | Christina Applegate | Don't Tell Mom the Babysitter's Dead | 1971-11-25 |
+| nm0578949 | Eva Mendes | The Other Guys | 1974-03-05 |
+| nm0517820 | Lindsay Lohan | The Parent Trap | 1986-07-02 |
+| nm0004806 | Charisma Carpenter | Angel |  |
+| nm0176882 | A.J. Cook | Criminal Minds | 1978-07-22 |
+| nm3647676 | Charlie Murphy | Obsession | 1987-11-30 |
+| nm0628601 | Thandiwe Newton | Crash | 1972-11-06 |
+| nm2129662 | Cristin Milioti | Palm Springs | 1985-08-16 |
+| nm0000162 | Anne Heche | Six Days Seven Nights | 1969-05-25 |
+| nm0000132 | Claire Danes | My So-Called Life | 1979-04-12 |
+| nm0001287 | Heather Graham | Austin Powers: The Spy Who Shagged Me | 1970-01-29 |
+| nm0629697 | Rachel Nichols | G.I. Joe: The Rise of Cobra | 1980-01-08 |
+| nm0272706 | Jodelle Ferland | Case 39 | 1994-10-09 |
+| nm1132359 | Summer Glau | Serenity | 1981-07-24 |
+| nm0000192 | Alyssa Milano | Charmed | 1972-12-19 |
+| nm0659363 | Hayden Panettiere | Heroes | 1989-08-21 |
+| nm0752407 | Amy Ryan | Gone Baby Gone | 1968-05-03 |
+| nm1556320 | Katie Cassidy | A Nightmare on Elm Street | 1986-11-25 |
+| nm3138882 | Britt Lower | High Maintenance | 1985-08-02 |
+| nm4624730 | Kirby | The Good Place |  |
+| nm0703939 | Molly C. Quinn | Castle | 1993-10-08 |
+| nm3220568 | Elsie Fisher | Eighth Grade | 2003-04-03 |
+| nm0000477 | Mia Kirshner | Not Another Teen Movie | 1975-01-25 |
+| nm0001337 | Katherine Heigl | One for the Money | 1978-11-24 |
+| nm0001584 | Miranda Otto | The Lord of the Rings: The Return of the King | 1967-12-16 |
+| nm2230865 | Ashley Greene | Twilight | 1987-02-21 |
+| nm1495520 | Caitríona Balfe | Belfast | 1979-10-04 |
+| nm0000097 | Pamela Anderson | Barb Wire | 1967-07-01 |
+| nm0005281 | Jodi Lyn O'Keefe | She's All That | 1978-10-10 |
+| nm0001043 | Anna Chlumsky | My Girl | 1980-12-03 |
+| nm0001416 | Catherine Keener | Being John Malkovich | 1959-03-26 |
+| nm0124208 | Sophia Bush | John Tucker Must Die | 1982-07-08 |
+| nm1763049 | April Bowlby | The Slammin' Salmon | 1980-07-30 |
+| nm0004753 | Leslie Bibb | Iron Man | 1973-11-17 |
+| nm3014031 | Rachel Brosnahan | House of Cards | 1990-07-12 |
+| nm0000337 | Rachael Leigh Cook | She's All That | 1979-10-04 |
+| nm0004748 | Julie Benz | Dexter | 1972-05-01 |
+| nm2832695 | Deborah Ann Woll | True Blood | 1985-02-07 |
+| nm0000182 | Jennifer Lopez | Hustlers | 1969-07-24 |
+| nm0001578 | Annette O'Toole | Superman III | 1952-04-01 |
+| nm2365811 | Betty Gilpin | The Hunt | 1986-07-21 |
+| nm0926165 | Mae Whitman | The Perks of Being a Wallflower | 1988-06-09 |
+| nm3920288 | Taissa Farmiga | The Final Girls | 1994-08-17 |
+| nm2560043 | Adelaide Kane | The Purge | 1990-08-09 |
+| nm0842770 | Tilda Swinton | We Need to Talk About Kevin | 1960-11-05 |
+| nm0000515 | Virginia Madsen | Sideways | 1961-09-11 |
+| nm0000159 | Teri Hatcher | Tomorrow Never Dies | 1964-12-08 |
+| nm0000612 | Denise Richards | The World Is Not Enough | 1971-02-17 |
+| nm0000496 | Juliette Lewis | Natural Born Killers | 1973-06-21 |
+| nm0000149 | Jodie Foster | The Silence of the Lambs | 1962-11-19 |
+| nm0951148 | Odette Annable | Cloverfield | 1985-05-10 |
+| nm1469236 | Olivia Colman | The Favourite | 1974-01-30 |
+| nm1310368 | Minka Kelly | The Roommate | 1980-06-24 |
+| nm0000658 | Meryl Streep | Out of Africa | 1949-06-22 |
+| nm0004825 | Emmanuelle Chriqui | Wrong Turn | 1975-12-10 |
+| nm0540441 | Jena Malone | The Neon Demon | 1984-11-21 |
+| nm1659547 | Carey Mulligan | Never Let Me Go | 1985-05-28 |
+| nm0279545 | Isla Fisher | Wedding Crashers | 1976-02-03 |
+| nm0000235 | Uma Thurman | Kill Bill: Vol. 1 | 1970-04-29 |
+| nm4023073 | Rosa Salazar | Alita: Battle Angel | 1985-07-16 |
+| nm2090422 | Constance Wu | Crazy Rich Asians |  |
+| nm2313103 | Rebel Wilson | Senior Year | 1980-03-02 |
+| nm0135221 | Lizzy Caplan | Cloverfield | 1982-06-30 |
+| nm0000170 | Milla Jovovich | The Fifth Element | 1975-12-17 |
+| nm1102577 | Elle Fanning | Super 8 | 1998-04-09 |
+| nm0278979 | Jenna Fischer | The Office | 1974-03-07 |
+| nm0005299 | Sarah Paulson | 12 Years a Slave | 1974-12-17 |
+| nm0492345 | Katrina Law | Arrow | 1985-09-30 |
+| nm0221046 | Zooey Deschanel | New Girl | 1980-01-17 |
+| nm0000327 | Lacey Chabert | Mean Girls | 1982-09-30 |
+| nm1269983 | Krysten Ritter | Jessica Jones |  |
+| nm0002546 | Mena Suvari | American Beauty | 1979-02-13 |
+| nm0000139 | Cameron Diaz | Vanilla Sky | 1972-08-30 |
+| nm0593961 | Rhona Mitra | Underworld: Rise of the Lycans | 1976-08-09 |
+| nm0206257 | Rosario Dawson | Rent | 1979-05-09 |
+| nm2552034 | Melissa Benoist | Supergirl | 1988-10-04 |
+| nm0005392 | Keri Russell | Dawn of the Planet of the Apes | 1976-03-23 |
+| nm0000205 | Parker Posey | Scream 3 | 1968-11-08 |
+| nm0244630 | Eliza Dushku | Bring It On | 1980-12-30 |
+| nm1913734 | Rooney Mara | The Girl with the Dragon Tattoo | 1985-04-17 |
+| nm1130627 | Cobie Smulders | Safe Haven | 1982-04-03 |
+| nm5397459 | Daisy Ridley | Star Wars: Episode VII - The Force Awakens | 1992-04-10 |
+| nm0005502 | Michelle Trachtenberg | Buffy the Vampire Slayer | 1985-10-11 |
+| nm2584600 | Julianne Hough | Rock of Ages | 1988-07-20 |
+| nm2168927 | Milana Vayntrub | Werewolves Within | 1987-03-08 |
+| nm1092227 | Sienna Miller | G.I. Joe: The Rise of Cobra | 1981-12-28 |
+| nm3725055 | Jessica Henwick | Glass Onion | 1992-08-30 |
+| nm0931329 | Michelle Williams | My Week with Marilyn | 1980-09-09 |
+| nm2057859 | Andrea Riseborough | Birdman or (The Unexpected Virtue of Ignorance) | 1981-11-20 |
+| nm1601397 | Olivia Munn | The Newsroom | 1980-07-03 |
+| nm0005381 | Rebecca Romijn | X-Men | 1972-11-06 |
+| nm4296013 | Halston Sage | Paper Towns | 1993-05-10 |
+| nm1325419 | Kristen Wiig | Bridesmaids | 1973-08-22 |
+| nm0245112 | Clea DuVall | The Faculty | 1977-09-25 |
+| nm0005466 | Julia Stiles | 10 Things I Hate About You | 1981-03-28 |
+| nm1211488 | Lynn Collins | X-Men Origins: Wolverine | 1977-05-16 |
+| nm1589279 | Emily Ratajkowski | We Are Your Friends | 1991-06-07 |
+| nm2400045 | Nina Dobrev | The Perks of Being a Wallflower | 1989-01-09 |
+| nm0000106 | Drew Barrymore | Charlie's Angels | 1975-02-22 |
+| nm0000212 | Meg Ryan | When Harry Met Sally... | 1961-11-19 |
+| nm0005123 | Ali Larter | Final Destination | 1976-02-28 |
+| nm1901842 | Dichen Lachman | Jurassic World Dominion | 1982-02-22 |
+| nm0005442 | Amy Smart | Starship Troopers | 1976-03-26 |
+| nm0940362 | Shailene Woodley | Big Little Lies | 1991-11-15 |
+| nm0000250 | Renée Zellweger | Chicago | 1969-04-25 |
+| nm0001231 | Claire Forlani | Meet Joe Black | 1971-12-17 |
+| nm2125623 | Bridget Regan | Jane the Virgin | 1982-02-03 |
+| nm1659348 | Lauren Cohan | The Boy | 1982-01-07 |
+| nm0000379 | Kirsten Dunst | Spider-Man | 1982-04-30 |
+| nm1208167 | Diane Kruger | Inglourious Basterds | 1976-07-15 |
+| nm0447695 | Anna Kendrick | Up in the Air | 1985-08-09 |
+| nm0544718 | Kate Mara | Fantastic Four | 1983-02-27 |
+| nm5308665 | Louisa Harland | The Deceived | 1993-01-31 |
+| nm0001614 | Lori Petty | Tank Girl | 1963-10-14 |
+| nm1564087 | Jenna Dewan | Step Up | 1980-12-03 |
+| nm1404408 | Alice Eve | Before We Go | 1982-02-06 |
+| nm0001838 | Rachel Weisz | The Constant Gardener | 1970-03-07 |
+| nm3400186 | Julia Garner | Ozark | 1994-02-01 |
+| nm2546012 | Kaya Scodelario | Pirates of the Caribbean: Dead Men Tell No Tales | 1992-03-13 |
+| nm0002536 | Emmy Rossum | The Phantom of the Opera | 1986-09-12 |
+| nm0000166 | Helen Hunt | As Good as It Gets | 1963-06-15 |
+| nm0000673 | Marisa Tomei | My Cousin Vinny | 1964-12-04 |
+| nm1466205 | Caitlin Stasey | Tomorrow, When the War Began | 1990-05-01 |
+| nm0607185 | Jennifer Morrison | House M.D. | 1979-04-12 |
+| nm0000884 | Jennifer Beals | Flashdance | 1963-12-19 |
+| nm1519680 | Saoirse Ronan | Hanna | 1994-04-12 |
+| nm2247245 | Haley Bennett | Swallow | 1988-01-07 |
+| nm0000463 | Famke Janssen | X-Men: The Last Stand | 1964-11-05 |
+| nm0085227 | Claudia Black | Farscape: The Peacekeeper Wars | 1972-10-11 |
+| nm0015196 | Malin Akerman | Watchmen | 1978-05-12 |
+| nm0000701 | Kate Winslet | Titanic | 1975-10-05 |
+| nm0000103 | Fairuza Balk | The Craft | 1974-05-21 |
+| nm2605345 | Gemma Arterton | Prince of Persia: The Sands of Time | 1986-02-02 |
+| nm0647634 | Elizabeth Olsen | Martha Marcy May Marlene | 1989-02-16 |
+| nm1083271 | Megan Fox | Transformers | 1986-05-16 |
+| nm1297015 | Emma Stone | La La Land | 1988-11-06 |
+| nm1954240 | Teresa Palmer | Warm Bodies | 1986-02-26 |
+| nm0424534 | Ashley Johnson | The Avengers | 1983-08-09 |
+| nm2934314 | Lily Collins | The Mortal Instruments: City of Bones | 1989-03-18 |
+| nm5057169 | Thomasin McKenzie | Leave No Trace | 2000-07-26 |
+| nm2976580 | Jessie Buckley | I'm Thinking of Ending Things | 1989-12-28 |
+| nm4496875 | Mackenzie Davis | Terminator: Dark Fate |  |
+| nm0000702 | Reese Witherspoon | Wild | 1976-03-22 |
+| nm1526352 | Jaimie Alexander | Thor | 1984-03-12 |
+| nm0000201 | Michelle Pfeiffer | What Lies Beneath | 1958-04-29 |
+| nm0488953 | Brie Larson | Room | 1989-10-01 |
+| nm0000668 | Emma Thompson | Sense and Sensibility | 1959-04-15 |
+| nm0000295 | Kate Beckinsale | Underworld: Evolution | 1973-07-26 |
+| nm0000239 | Liv Tyler | Armageddon | 1977-07-01 |
+| nm0000244 | Sigourney Weaver | Alien | 1949-10-08 |
+| nm0939697 | Evan Rachel Wood | Thirteen | 1987-09-07 |
+| nm0267812 | Vera Farmiga | The Departed | 1973-08-06 |
+| nm0790057 | Alia Shawkat | Arrested Development | 1989-04-18 |
+| nm0376716 | Christina Hendricks | Ginger & Rosa | 1975-05-03 |
+| nm2794962 | Hailee Steinfeld | True Grit | 1996-12-11 |
+| nm0435323 | Bianca Kajlich | Halloween: Resurrection | 1977-03-26 |
+| nm0000117 | Neve Campbell | Scream | 1973-10-03 |
+| nm0005308 | Cassandra Peterson | Elvira: Mistress of the Dark | 1951-09-17 |
+| nm1100839 | Sofia Vassilieva | The Little Things | 1992-10-22 |
+| nm0829576 | Kristen Stewart | The Twilight Saga: Eclipse | 1990-04-09 |
+| nm3929195 | Erin Moriarty | The Boys | 1994-06-24 |
+| nm0192505 | Kaley Cuoco | The Big Bang Theory | 1985-11-30 |
+| nm0115161 | Emily Browning | A Series of Unfortunate Events | 1988-12-07 |
+| nm1200692 | Eva Green | Casino Royale | 1980-07-06 |
+| nm0000098 | Jennifer Aniston | Friends | 1969-02-11 |
+| nm0000307 | Helena Bonham Carter | Sweeney Todd: The Demon Barber of Fleet Street | 1966-05-26 |
+| nm3964350 | Amandla Stenberg | The Hunger Games | 1998-10-23 |
+| nm0000223 | Elisabeth Shue | Leaving Las Vegas | 1963-10-06 |
+| nm0215487 | Kate del Castillo | The Book of Life | 1972-10-23 |
+| nm0110168 | Connie Britton | Seeking a Friend for the End of the World | 1967-03-06 |
+| nm2560618 | Willa Fitzgerald | Scream | 1991-01-17 |
+| nm0376602 | Shirley Henderson | Star Wars: Episode IX - The Rise of Skywalker | 1965-11-24 |
+| nm5573195 | Parveen Kaur | Manifest | 1988-10-19 |
+| nm1631435 | Aimee Teegarden | Friday Night Lights |  |
+| nm0000236 | Jennifer Tilly | Bound | 1958-09-16 |
+| nm0068338 | Kristen Bell | Frozen | 1980-07-18 |
+| nm0683253 | Rosamund Pike | Gone Girl | 1979-01-27 |
+| nm0000096 | Gillian Anderson | The X Files | 1968-08-09 |
+| nm1684744 | Jennifer Holland | Peacemaker |  |
+| nm0372176 | Lena Headey | 300 | 1973-10-03 |
+| nm2951768 | Freida Pinto | Slumdog Millionaire | 1984-10-18 |
+| nm0913488 | Kerry Washington | Scandal | 1977-01-31 |
+| nm2215143 | Kiernan Shipka | Carriers | 1999-11-10 |
+| nm0006969 | Elizabeth Banks | The Hunger Games | 1974-02-10 |
+| nm1086543 | Amanda Seyfried | Les MisÃ©rables | 1985-12-03 |
+| nm1690270 | Amber Midthunder | Prey |  |
+| nm1455681 | AnnaSophia Robb | Bridge to Terabithia | 1993-12-08 |
+| nm1933128 | Bailee Madison | Bridge to Terabithia | 1999-10-15 |
+| nm0815370 | Shannyn Sossamon | Wristcutters: A Love Story |  |
+| nm2555462 | Eiza González | Baby Driver | 1990-01-30 |
+| nm3012273 | Alex Essoe | The Pope's Exorcist | 1992-03-09 |
+| nm2201555 | Aubrey Plaza | Safety Not Guaranteed | 1984-06-26 |
+| nm0461136 | Keira Knightley | Pirates of the Caribbean: The Curse of the Black Pearl | 1985-03-26 |
+| nm1390614 | Jennette McCurdy | iCarly | 1992-06-26 |
+| nm5353321 | Cara Delevingne | Suicide Squad | 1992-08-12 |
+| nm1157358 | Michelle Monaghan | Gone Baby Gone | 1976-03-23 |
+| nm2446898 | Antonia Desplat | Shantaram |  |
+| nm1597316 | Adrianne Palicki | G.I. Joe: Retaliation | 1983-05-06 |
+| nm0452288 | Margot Kidder | Superman | 1948-10-17 |
+| nm0005476 | Hilary Swank | Million Dollar Baby | 1974-07-30 |
+| nm0267506 | Anna Faris | The House Bunny | 1976-11-29 |
+| nm0920171 | Dawn Wells | Gilligan's Island | 1938-10-18 |
+| nm2933757 | Gal Gadot | Wonder Woman | 1985-04-30 |
+| nm0126284 | Rose Byrne | Spy | 1979-07-24 |
+| nm0001264 | Sarah Michelle Gellar | Buffy the Vampire Slayer | 1977-04-14 |
+| nm2318089 | Kate Siegel | Hush | 1982-08-09 |
+| nm1046097 | Rachel McAdams | The Notebook | 1978-11-17 |
+| nm0088127 | Alexis Bledel | Gilmore Girls | 1981-09-16 |
+| nm2244205 | Léa Seydoux | La vie d'AdÃ¨le | 1985-07-01 |
+| nm0731075 | Emma Roberts | We're the Millers | 1991-02-10 |
+| nm1156709 | Annie Wersching | The Last of Us | 1977-03-28 |
+| nm3948952 | Vanessa Kirby | The Crown | 1988-04-18 |
+| nm0266824 | Dakota Fanning | War of the Worlds | 1994-02-23 |
+| nm3031063 | Katherine McNamara | Shadowhunters: The Mortal Instruments |  |
+| nm1720028 | Amber Heard | Aquaman | 1986-04-22 |
+| nm1782299 | Imogen Poots | 28 Weeks Later | 1989-06-03 |
+| nm0001593 | Anna Paquin | The Piano | 1982-07-24 |
+| nm2946516 | Claire Foy | First Man | 1984-04-16 |
+| nm1113550 | Abigail Breslin | Little Miss Sunshine | 1996-04-14 |
+| nm0000224 | Alicia Silverstone | Clueless | 1976-10-04 |
+| nm0001491 | Melanie Lynskey | Togetherness | 1977-05-16 |
+| nm0001303 | Carla Gugino | Watchmen | 1971-08-29 |
+| nm0001349 | Jennifer Love Hewitt | I Know What You Did Last Summer | 1979-02-21 |
+| nm2394794 | Karen Gillan | Selfie | 1987-11-28 |
+| nm3668216 | Nargis Fakhri | Spy | 1979-10-20 |
+| nm0000173 | Nicole Kidman | Moulin Rouge! | 1967-06-20 |
+| nm3034977 | Samara Weaving | Ready or Not | 1992-02-23 |
+| nm8090765 | Saoirse-Monica Jackson | The Flash | 1993-11-24 |
+| nm2896588 | Sara Tomko | Resident Alien | 1983-10-19 |
+| nm1679778 | Sylvia Hoeks | Blade Runner 2049 | 1983-06-01 |
+| nm1289434 | Emily Blunt | Edge of Tomorrow | 1983-02-23 |
+| nm4419771 | Justine Lupe | Luckiest Girl Alive | 1989-05-31 |
+| nm0005253 | Elisabeth Moss | The Invisible Man | 1982-07-24 |
+| nm0010736 | Amy Adams | Arrival | 1974-08-20 |
+| nm8402992 | Daisy Edgar-Jones | Normal People | 1998-05-24 |
+| nm3313554 | Catherine Corcoran | Long Lost | 1992-05-30 |
+| nm0914612 | Emma Watson | The Perks of Being a Wallflower | 1990-04-15 |
+| nm0339460 | Judy Greer | 13 Going on 30 | 1975-07-20 |
+| nm0000213 | Winona Ryder | Little Women | 1971-10-29 |
+| nm0810619 | Jurnee Smollett | The Burial |  |
+| nm0570860 | Rose McIver | The Lovely Bones | 1988-10-10 |
+| nm5988570 | Chiara Aurelia | Cruel Summer | 2002-09-13 |
+| nm0000492 | Jennifer Jason Leigh | The Hateful Eight | 1962-02-05 |
+| nm1072555 | Morena Baccarin | Deadpool | 1979-06-02 |
+| nm2539953 | Alicia Vikander | Ex Machina | 1988-10-03 |
+| nm1834115 | Annabelle Wallis | The Mummy | 1984-09-05 |
+| nm0629653 | Marisol Nichols | Spiral: From the Book of Saw |  |
+| nm0000706 | Michelle Yeoh | Everything Everywhere All at Once | 1962-08-06 |
+| nm0811242 | Brittany Snow | Pitch Perfect | 1986-03-09 |
+| nm0000204 | Natalie Portman | Black Swan | 1981-06-09 |
+| nm0372961 | Jessica Hecht | Whatever Works | 1965-06-28 |
+| nm6609666 | Billie Lourd | Booksmart | 1992-07-17 |
+| nm1870963 | Cynthia Addai-Robinson | The Lord of the Rings: The Rings of Power | 1985-01-12 |
+| nm1935086 | Tessa Thompson | Creed | 1983-10-03 |
+| nm0000402 | Carrie Fisher | Star Wars | 1956-10-21 |
+| nm0935541 | Mary Elizabeth Winstead | 10 Cloverfield Lane | 1984-11-28 |
+| nm0000899 | Monica Bellucci | MalÃ¨na | 1964-09-30 |
+| nm3004687 | Galadriel Stineman | The Middle | 1990-10-20 |
+| nm0004266 | Anne Hathaway | Les MisÃ©rables | 1982-11-12 |
+| nm2225369 | Jennifer Lawrence | The Hunger Games | 1990-08-15 |
+| nm0004802 | Linda Cardellini | Scooby-Doo | 1975-06-25 |
+| nm3006818 | Lio Tipton | Two Night Stand | 1988-11-09 |
+| nm6231136 | Samantha Robinson | The Love Witch | 1991-10-19 |
+| nm1172442 | Erin Karpluk | Being Erica |  |
+| nm4141252 | Lily James | Cinderella | 1989-04-05 |
+| nm1944055 | Lauren Lapkus | The Wrong Missy | 1985-09-06 |
+| nm2265157 | Isabelle Fuhrman | The Novice | 1997-02-25 |
+| nm2254074 | Bella Thorne | The Duff | 1997-10-08 |
+| nm0004757 | Selma Blair | Cruel Intentions | 1972-06-23 |
+| nm2140860 | Maika Monroe | It Follows | 1993-05-29 |
+| nm0000113 | Sandra Bullock | The Proposal | 1964-07-26 |
+| nm1567113 | Jessica Chastain | Zero Dark Thirty | 1977-03-24 |
+| nm7036568 | Ema Horvath | What Lies Below | 1994-01-28 |
+| nm0935395 | Katheryn Winnick | Vikings | 1977-12-17 |
+| nm0717709 | Kelly Reilly | Pride & Prejudice | 1977-07-18 |
+| nm7016255 | Jeanne Goursaud | Barbarians | 1996-04-04 |
+| nm0424060 | Scarlett Johansson | Lost in Translation | 1984-11-22 |
+| nm2088803 | Yvonne Strahovski | Stateless | 1982-07-30 |
+| nm0000210 | Julia Roberts | Pretty Woman | 1967-10-28 |
+| nm5570560 | Odessa A’zion | Hellraiser | 2000-06-17 |
+| nm0000207 | Christina Ricci | Casper | 1980-02-12 |
+| nm0180411 | Abbie Cornish | Bright Star | 1982-08-07 |
+| nm4766015 | Stevie Lynn Jones | Animal Kingdom | 1995-10-22 |
+| nm0000208 | Molly Ringwald | Sixteen Candles | 1968-02-18 |
+| nm0000949 | Cate Blanchett | Carol | 1969-05-14 |
+| nm0000124 | Jennifer Connelly | A Beautiful Mind | 1970-12-12 |
+| nm1967827 | Laura Donnelly | The Nevers | 1982-08-20 |
+| nm0428065 | Felicity Jones | Rogue One | 1983-10-17 |
+| nm1051295 | Hunter King | A Girl Like Her | 1993-10-19 |
+| nm1843026 | Gillian Jacobs | Community | 1982-10-19 |
+| nm3053338 | Margot Robbie | Suicide Squad | 1990-07-02 |
+| nm1275259 | Alexandra Daddario | Baywatch | 1986-03-16 |
+| nm0000234 | Charlize Theron | Monster | 1975-08-07 |
+| nm4456120 | Elizabeth Debicki | The Great Gatsby | 1990-08-24 |
+| nm1429380 | Britt Robertson | Tomorrowland | 1990-04-18 |
+| nm1312575 | Olivia Wilde | Tron: Legacy | 1984-03-10 |
+| nm4420495 | Sonoya Mizuno | Ex Machina | 1986-07-01 |
+| nm2450512 | Alice Kremelberg | Orange Is the New Black |  |
+| nm6073955 | Florence Pugh | The Falling | 1996-01-03 |
+| nm0005109 | Mila Kunis | Black Swan | 1983-08-14 |
+| nm5085683 | Mckenna Grace | Gifted | 2006-06-25 |
+| nm2258164 | Nazanin Boniadi | Hotel Mumbai | 1980-05-22 |
+| nm5245722 | Adria Arjona | Father of the Bride | 1992-04-25 |
+| nm3239803 | Kaitlyn Dever | Booksmart | 1996-12-21 |
+| nm4911194 | Jenna Ortega | Scream | 2002-09-27 |
+| nm1428821 | Joey King | The Act | 1999-07-30 |
+| nm3592338 | Emilia Clarke | Game of Thrones | 1986-10-23 |
+| nm0642444 | Genevieve O'Reilly | The Dry | 1977-01-06 |
+| nm0272581 | Rebecca Ferguson | The Greatest Showman | 1983-10-19 |
+| nm0177639 | Jennifer Coolidge | A Mighty Wind | 1961-08-28 |
+| nm1083404 | Sarah Shahi | Black Adam | 1980-01-10 |
+| nm1869101 | Ana de Armas | Blade Runner 2049 | 1988-04-30 |
+| nm8402202 | Sofia Wylie | High School Musical: The Musical - The Series | 2004-01-07 |
+| nm6077056 | Morfydd Clark | Saint Maud | 1989-03-17 |
+| nm0915208 | Naomi Watts | Mulholland Dr. | 1968-09-28 |
+| nm3143851 | Sophia Anne Caruso | The School for Good and Evil | 2001-07-11 |
+| nm4972453 | Olivia Cooke | Ready Player One | 1993-12-27 |
+| nm1631269 | Chloë Grace Moretz | Kick-Ass | 1997-02-10 |

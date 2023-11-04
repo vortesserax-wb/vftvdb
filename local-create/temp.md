@@ -1,12 +1,15 @@
+| Const | Created | Name | Known For | Birth Date |
+| --- | --- | --- | --- | --- |
+| nm0494372 | 2022-10-30 | Ursula K. Le Guin | Gedo senki | 1929-10-21 |
+| nm3094293 | 2022-10-30 | Autumn Shields | Inhale |  |
+| nm0009675 | 2022-10-30 | Susan Aceron | The In-Laws | 1972-07-06 |
+| nm0738751 | 2022-10-30 | Susan Roman | Heavy Metal | 1957-04-17 |
+| nm0739479 | 2022-10-30 | Kate Stellar | Ariana Grande: Thank U, Next |  |
+| nm6391796 | 2022-10-30 | Viola Bailey | Brazzers Exxtra | 1993-03-03 |
+| nm0050563 | 2022-10-30 | Linda Ballantyne | Sailor Moon | 1964-10-24 |
+
 | Const | Name | Known For | Birth Date |
 | --- | --- | --- | --- |
-| nm0494372 | Ursula K. Le Guin | Gedo senki | 1929-10-21 |
-| nm3094293 | Autumn Shields | Inhale |  |
-| nm0009675 | Susan Aceron | The In-Laws | 1972-07-06 |
-| nm0738751 | Susan Roman | Heavy Metal | 1957-04-17 |
-| nm0739479 | Kate Stellar | Ariana Grande: Thank U, Next |  |
-| nm6391796 | Viola Bailey | Brazzers Exxtra | 1993-03-03 |
-| nm0050563 | Linda Ballantyne | Sailor Moon | 1964-10-24 |
 | nm2736280 | Colbie Caillat | Safe Haven | 1985-05-28 |
 | nm4827551 | Rilee Marks | Sexart | 1991-12-03 |
 | nm4866954 | Karina White | Watch Over Me | 1990-03-27 |
